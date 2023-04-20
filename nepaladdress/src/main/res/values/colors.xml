@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_light_grey">#f2f2f2f2</color>
+    <color name="color_divider">#E7E7E7</color>
+
+
+    <color name="color_text_primary">#0D0D0D</color>
+    <color name="color_text_secondary">#636161</color>
+    <color name="color_text_secondary_light">#7A7979</color>
+
+
+    <!--    Alert Background Colors-->
+    <color name="alert_background_success">#48AE40</color>
+    <color name="alert_background_error">#ED3A4D</color>
+    <color name="alert_background_information">#376AF5</color>
+
+
+    <!--    Alert Background Colors-->
+    <color name="text_color_primary">#333333</color>
+    <color name="text_color_secondary">#6C6C6E</color>
+    <color name="text_color_light">#A0A1A1</color>
+
+
+
+    <color name="colorBottomNavigationDay">#F2F4F2</color>
+    <color name="colorBottomNavigationNight">#000000</color>
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorLightGrey">#f5f5f5</color>
+    <color name="colorGrey">#9D9B9B</color>
+    <color name="colorTransparentBlack">#410C1736</color>
+    <color name="colorFooterText">#6E6E6E</color>
+    <color name="colorNotificationBackground">#ec3333</color>
+    <color name="colorCartBackground">#ec3333</color>
+
+    <color name="colorButton">#347DEA</color>
+
+
+</resources>
