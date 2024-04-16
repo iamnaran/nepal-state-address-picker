@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.iamnaran.nepaladdress'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 24
-        targetSdk 33
+        targetSdk 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -30,7 +30,7 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'com.google.android.material:material:1.11.0'
     testImplementation 'junit:junit:4.13.2'
 
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
@@ -41,15 +41,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.iamnaran.nepaladdress'
-                artifactId = 'nepal-state-picker'
-                version = '1.0'
-            }
-        }
-    }
-}
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//                groupId = 'com.iamnaran.nepaladdress'
+//                artifactId = 'nepal-state-picker'
+//                version = '1.0'
+//            }
+//        }
+//    }
+//}

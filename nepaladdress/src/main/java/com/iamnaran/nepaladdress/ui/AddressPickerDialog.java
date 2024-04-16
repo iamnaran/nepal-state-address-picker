@@ -114,6 +114,11 @@ public class AddressPickerDialog extends BottomSheetDialogFragment implements Ad
             selectedNepalAddress.setMunicipality(municipality);
             addressPickerListener.onAddressSelected(selectedNepalAddress);
 
+            try {
+                dismiss();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
 
         }
 

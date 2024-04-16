@@ -16,8 +16,8 @@ import java.util.List;
 public class AddressDataUtils {
 
     public static List<String> getAllProvinceNames(List<ProvinceOfNepal> provinceOfNepalList) {
-        List<String> provinceNameList = new ArrayList<>();
 
+        List<String> provinceNameList = new ArrayList<>();
         for (ProvinceOfNepal provinceOfNepal : provinceOfNepalList) {
             provinceNameList.add(provinceOfNepal.getName());
         }
